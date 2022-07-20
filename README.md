@@ -2,9 +2,9 @@
 ## Jogo da Memória em JavaScript baseada no bootcamp da TQI na Dio.
 - Aperfeiçoado com Divisão no DOM e criação de um Menu para:
   - seleção de 3 níveis de dificuldade:
-    -Easy (3 imagens)
-    -Medium (6 imagens)
-    -Hard (15 imagens)
+    - Easy (3 imagens)
+    - Medium (6 imagens)
+    - Hard (15 imagens)
   - botão de restart;
   - Player com música ambiental do jogo.
 - Desenvolvimento de script para inicializar o jogo ou reiniciar em qualquer etapa;
