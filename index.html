@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Good Doctor Memory Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="dropdown-wrapper">
+                <label for="niveldropdown">Level:</label>
+                <select name="niveldropdown" id="niveldropdown" autofocus="true">Drop
+                    <option value="easy">Easy</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <button type="button" class="button" id="restartbtn">Restart</button>
+            <figure>
+                <figcaption></figcaption>
+                <audio
+                    controls
+                    src="assets/mp3/the_good_doctor_ost.mp3" loop="infinity" id="audiobox">
+                        Seu Navegador não suporta o
+                        <code>audio</code> mp3.
+                </audio>
+            </figure>
+        </div>
+        <main class="memory-game" id="memory-game"></main>
+        <script src="assets/js/script.js"></script>
+    </div>
+    
+</body>
+</html>
